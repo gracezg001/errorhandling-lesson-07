@@ -5,25 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="526cb7b1-bbda-463e-a247-6a98079fe8e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_10_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/errorhandling-lesson-07-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/errorhandling-lesson-07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/application/AppTraitDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/application/ErrorHandling.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/application/OnlyPractice.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/application/SomeNoneDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/application/TryCatchDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/entity/Employee.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/entity/Person.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/application/AppTraitDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/application/AppTraitDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/application/ErrorHandling.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/application/ErrorHandling.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/application/OnlyPractice.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/application/SomeNoneDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/grace/fortune/application/SomeNoneDemo.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +46,36 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/zhuge/IdeaProjects/errorhandling-lesson-07"
+    "last_opened_file_path": "C:/Users/zhuge/IdeaProjects/pattern-matching-lesson-08"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TryCatchDemo">
+    <configuration name="ErrorHandling" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.grace.fortune.application.ErrorHandling" />
+      <module name="errorhandling-lesson-07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grace.fortune.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SomeNoneDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.grace.fortune.application.SomeNoneDemo" />
+      <module name="errorhandling-lesson-07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grace.fortune.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.grace.fortune.application.Test" />
       <module name="errorhandling-lesson-07" />
@@ -75,8 +89,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TryCatchDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.grace.fortune.application.TryCatchDemo" />
+      <module name="errorhandling-lesson-07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grace.fortune.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryCatchDemo" />
+        <item itemvalue="Application.SomeNoneDemo" />
+        <item itemvalue="Application.ErrorHandling" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
